@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "it-kmitl-attendance-2020",
+  "private_key_id": "1bfc8a1c0f2cdd2c7aa2c82c80be6c02c4722331",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDM+LxJHiq1TEjQ\nu+bjP/u24C3GB1vCl96t2GLAlzYUg7buOIu075iDyd0r9Z3wgMgGxsLcCM1Z8gPp\nXWThMnlyzAhGPoElou0Q13MIYAjFGRDNiX8lKoni5Z2pKTzi+DFnMVK82mW9x74I\nWuuQnGpS0aw0k1JZPl2KBWN4K7kGXv+B2bYn2m8Xk99YwAOqAaSymlde9k/6B2dR\n2VIpDKtNlkOZk8XvOxzPI9IcUfbSXuODwterqKApnMNNsJwYQ8IOVqdUq9cyB0PW\nydeXT7w3hzrXCgooLC8zm6vLYoVrcjxOI/jPM4SzelAnEiGZ0VZb9Pph7ztEEOJI\n4pOZGQXpAgMBAAECggEAArGfWcJEgJBzziXuRoXJJ1nDC1sMbgc+P2zo3+ahTFaH\nbjzgQw915lxIxmVkR+5GBkbi0ms9eVZNeNSJt1xa5HTGp8kgpsChWPTp7cw1M4Vi\nhXfnL0+nTCFP8mfoqNInF7tr5dOyz5Xc8IVr8B2Re1Oxba7aJtZOM4xwOGHVgIjl\nbEBZZf677yfvLOdhBXk9EWqo+j/YUVispOaW2T0yGmEINV1EIVWlHe4p1uSFSlAx\noIEgCU7pLxQsrEvrYIoz620FzmydWlE6Q4Z4/YlMAHr37haBad0fCiJRPWVEw+Wi\nZrIQbV7YPxGwTCvI8Cja/iTPoIvTM9Au9GJv5IEWgQKBgQDvoQyXh/ZhUk66AHx0\nFPE7QO+xIxRRTOXsDKmrzRGaTspQOANYY1ApcxhS61XdVy8wX1Xg58/XG89JNKpY\n1xWSF9LbJW2+tGaTy3+Aw0VAT1MdbQ9vLFiqEVIu9+0I+VVcdBryHi13vnEr3Fyf\n/HnoSDd2q7HH3D751yz5a3prgQKBgQDa+Yzt+gDpy16ANrlW4dSH2KSM+PVMVoCQ\nueDRJdppOe+eq/AxENIRof9v5qSwDh/P7hiRCXxk4LvLyJuPKR1wiFWJL5FAQGSv\n+Ayura4x0TggBcxe+eaHjBkabtb4q8UdWAmK9OPm3VGewSabU/+JOSlUETg4k79N\nQE7xQHHuaQKBgQDbIaBdNeVWDCmYKHemw7vx3qkSiKy8yCB94vqJ9AbD4IdcIkzU\n2ETnEqxMr46e0WqCxrvG5tWGtZSyMioRAedk6MpWwvx/54LiZrabbnZ2n9O21hPG\nK3yNUTehYfFuQmwQFtDJVlVn6kydum8tknl8tAWcTNhPlxYz7NTg5atWgQKBgBn/\niPj0NsmLSMQGO0kSdO5QDXFjWZRfrNICD6wlR2I467c2CMV6jsZjKnW5t5Hji2lf\nhnEp5CgB+qn+PmHn6sPim+02xZMQUiQGWlMe8dCeW4CJz7LzDqjHPG/D+yf5FOUf\n/7oMy0YsvrUPj6rfdTZwn/SIOtmUySC94uGH2j8JAoGBAOxn4G3v4evl4kTJADys\n0HQracZgtLC8oZxhX+w/c3qh3Sr6BTV/ZTpbc+QU86BhYRREBdGsDMr2RX1LF/Eb\n9PHQ4FKW6wVWj0Tpr3kY7Dk9khCALfu0QAQHsEVoQpoWfhI56PVmN4EEXY0M7N67\n4xJeQw8NbPBpf+i5uPfr2SYc\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-r83q2@it-kmitl-attendance-2020.iam.gserviceaccount.com",
+  "client_id": "103017846300481853142",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-r83q2%40it-kmitl-attendance-2020.iam.gserviceaccount.com"
+}

@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1366</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1366</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1366</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::DefaultContextMenu</enum>
+  </property>
+  <property name="acceptDrops">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Facial Recognition</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>images/favicon.ico</normaloff>images/favicon.ico</iconset>
+  </property>
+  <property name="statusTip">
+   <string/>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 255, 255);</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <property name="unifiedTitleAndToolBarOnMac">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGraphicsView" name="FacialRecognitionScreen">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>230</y>
+      <width>800</width>
+      <height>600</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 0, 0);
+border-style: solid;
+border-color: rgb(150, 150, 150);
+border-width: 5px;
+border-radius: 20px;</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>850</y>
+      <width>961</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="ButtonLayout">
+     <property name="spacing">
+      <number>50</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="StartButton">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(150, 255, 150);
+color: rgb(0, 220, 0);
+border-style: solid;
+border-color: rgb(0, 220, 0);
+border-width: 5px;
+border-radius: 20px;</string>
+       </property>
+       <property name="text">
+        <string>Start</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="CancelButton">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 150, 150);
+color: rgb(220, 0, 0);
+border-style: solid;
+border-color: rgb(220, 0, 0);
+border-width: 5px;
+border-radius: 20px;</string>
+       </property>
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="EnterPasscodeButton">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 170, 0);
+color: rgb(220, 100, 0);
+border-style: solid;
+border-color: rgb(220, 100, 0);
+border-width: 5px;
+border-radius: 20px;</string>
+       </property>
+       <property name="text">
+        <string>Enter Passcode</string>
+       </property>
+       <property name="checkable">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="verticalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>1000</x>
+      <y>430</y>
+      <width>291</width>
+      <height>191</height>
+     </rect>
+    </property>
+    <layout class="QVBoxLayout" name="DataLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="NameLabel">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(10,60,155);</string>
+       </property>
+       <property name="text">
+        <string>Name : </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="StatusLabel">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(10,60,155);</string>
+       </property>
+       <property name="text">
+        <string>Status : </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="DetectedLabel">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>22</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(10,60,155);</string>
+       </property>
+       <property name="text">
+        <string>Detected : </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QWidget" name="horizontalLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>1050</x>
+      <y>0</y>
+      <width>284</width>
+      <height>54</height>
+     </rect>
+    </property>
+    <layout class="QHBoxLayout" name="TimeStampLabel">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QLabel" name="DateLabel">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(10,60,155);</string>
+       </property>
+       <property name="text">
+        <string>Date : </string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLabel" name="TimeLabel">
+       <property name="font">
+        <font>
+         <family>Browallia New</family>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(10,60,155);</string>
+       </property>
+       <property name="text">
+        <string>Time : </string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+   <widget class="QLabel" name="Logo">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>40</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>FaceEyePassword/images/logo.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AppNameLabel">
+    <property name="geometry">
+     <rect>
+      <x>580</x>
+      <y>50</y>
+      <width>281</width>
+      <height>65</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(10,60,155);</string>
+    </property>
+    <property name="text">
+     <string>Facial Recognition</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="AmountLabel">
+    <property name="geometry">
+     <rect>
+      <x>1080</x>
+      <y>700</y>
+      <width>221</width>
+      <height>63</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Browallia New</family>
+      <pointsize>22</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(10,60,155);</string>
+    </property>
+    <property name="text">
+     <string>Amount : 0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logo_2">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>130</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>FaceEyePassword/images/Left.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logo_3">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>130</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>FaceEyePassword/images/Right.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Logo_4">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>130</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>FaceEyePassword/images/Down.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
